@@ -29,7 +29,7 @@ Before we can fix things, we need to create a realistic "bad" state.
 
 ---
 
-## 🔍 Exercise 1: Intelligent Inventory & Audit
+## 🔍 Exercise 1: Intelligent Inventory & Audit (Cloud Admin / FinOps focus)
 **Objective:** Use natural language to get a health check of the cloud environment.
 
 1. **Cluster Discovery:**
@@ -41,7 +41,7 @@ Before we can fix things, we need to create a realistic "bad" state.
 
 ---
 
-## 📡 Exercise 2: eBPF Observability with Inspektor Gadget
+## 📡 Exercise 2: eBPF Observability with Inspektor Gadget (SRE focus)
 **Objective:** Deploy and utilize advanced kernel-level monitoring.
 
 1. **Verify Tooling:**
@@ -52,7 +52,7 @@ Before we can fix things, we need to create a realistic "bad" state.
 
 ---
 
-## 🛠️ Exercise 3: AI-Assisted Resolution
+## 🛠️ Exercise 3: AI-Assisted Resolution (DevOps focus)
 **Objective:** Diagnose and fix the issues from Exercise 0 using Copilot's contextual knowledge.
 
 1. **Diagnose the Pending Pod:**

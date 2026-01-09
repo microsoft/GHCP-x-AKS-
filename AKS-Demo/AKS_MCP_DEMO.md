@@ -8,7 +8,16 @@ This demo highlights the capabilities of the Azure Kubernetes Service (AKS) MCP 
 - GitHub Copilot Chat with the AKS MCP server enabled.
 
 ## Demo Scenario
-You are a DevOps engineer responsible for maintaining the health and performance of an AKS cluster. You will use GitHub Copilot to perform various tasks without leaving your IDE.
+You are part of a Platform Engineering or Ops team (Cloud, SRE, or DevOps) responsible for maintaining the health, performance, and cost-efficiency of AKS clusters. You will use GitHub Copilot to perform various tasks without leaving your IDE.
+
+### 👤 Persona Relevance
+| Scenario | Persona | Key Benefit |
+| :--- | :--- | :--- |
+| **Discovery & Audit** | ☁️ Cloud Admin | Mult-subscription visibility & compliance checks. |
+| **Advisor Optimization** | 💰 FinOps / Cloud | Automated cost-saving & security recommendations. |
+| **Infrastructure Deep-Dive**| 🛠️ SRE | Accessing low-level VMSS/Host details via natural language. |
+| **Real-time Observability**| 📡 SRE / DevOps | Kernel-level debugging with eBPF (Inspektor Gadget). |
+| **Troubleshooting** | 🛠️ DevOps | rapid root-cause analysis of scheduling & image failures. |
 
 ### Phase 0: Orchestrating the "Break" (Setup)
 **Goal:** Intentionally break the cluster to demonstrate troubleshooting capabilities.

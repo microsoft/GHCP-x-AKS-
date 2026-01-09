@@ -4,11 +4,11 @@ Welcome to the **AKS MCP Demo** repository. This project is designed to showcase
 
 ## 🚀 Overview
 
-Traditional Kubernetes management often requires switching between the Azure Portal, CLI, and `kubectl`. This demo illustrates a "Single Pane of Glass" approach, where GitHub Copilot acts as an intelligent assistant for:
+Traditional Kubernetes management often requires switching between the Azure Portal, CLI, and `kubectl`. This demo illustrates a "Single Pane of Glass" approach for **Cloud Admins, SREs, and DevOps Engineers**, where GitHub Copilot acts as an intelligent assistant for:
 
-- **Discovery & Inventory:** Quickly listing and inspecting Azure resources.
+- **Discovery & Inventory:** Quickly listing and inspecting Azure resources across subscriptions.
 - **Observability:** Deploying and using eBPF tools like **Inspektor Gadget** for runtime analysis.
-- **Maintenance:** Auditing cluster health via **Azure Advisor**.
+- **Maintenance & Cost:** Auditing cluster health and savings via **Azure Advisor**.
 - **Troubleshooting:** Identifying and fixing common errors like `ImagePullBackOff` and `Pending` pods.
 - **Infrastructure Deep-Dives:** Accessing low-level VMSS details that standard tools often abstract away.
 
