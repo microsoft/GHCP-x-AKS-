@@ -33,7 +33,7 @@ Traditional Kubernetes management often requires switching between the Azure Por
 ## 🚥 Getting Started
 
 1. **Provision the Demo:** Navigate to the [Detailed Exercises](AKS-Demo/EXERCISES.md) to begin the setup phase where you'll intentionally "break" a cluster to simulate real-world troubleshooting.
-2. **Configure Copilot:** Follow the [Setup Guide](AKS-Demo/SETUP_GUIDE.md) to ensure your VS Code environment is MCP-ready.
+2. **Configure Copilot:** Follow the [Setup Guide](AKS-Demo/SETUP_GUIDE.md) and watch the [Official Setup Video](https://youtu.be/ZFKgFmkg8jQ?si=82n6SDCVePHd__tZ) to ensure your VS Code environment is MCP-ready.
 3. **Run the Demo:** Walk through the phases described in `AKS_MCP_DEMO.md`.
 
 ## 🛡️ License
