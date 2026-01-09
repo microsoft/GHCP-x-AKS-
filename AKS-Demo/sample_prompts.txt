@@ -1,0 +1,36 @@
+# Sample Prompts for AKS MCP Demo
+
+## Discovery
+- "List all AKS clusters in my subscription."
+- "Get details for the AKS cluster named testcluster in resource group AKS_training."
+
+## Optimization
+- "Show me high severity Azure Advisor recommendations for my AKS cluster."
+- "Are there any cost-saving recommendations for my cluster?"
+
+## Infrastructure
+- "Get the VMSS info for the default node pool in cluster testcluster."
+- "What is the VM SKU used in the 'agentpool' of testcluster?"
+
+## Observability (Inspektor Gadget)
+- "Is Inspektor Gadget deployed on my cluster?"
+- "Deploy Inspektor Gadget to my cluster."
+- "Run the observe_dns gadget for 15 seconds to see what domains are being resolved."
+- "Monitor TCP connections in the 'default' namespace for 20 seconds."
+
+## Management
+- "Add a label 'status=checked' to pod <POD_NAME>."
+- "Annotate the deployment <DEPLOYMENT_NAME> with 'checked-by=copilot'."
+
+## Troubleshooting & Break-Fix
+- "Why are my pods in the 'default' namespace stuck in Pending?"
+- "Check for any pods with ImagePullBackOff and fix the image name if there is a typo."
+- "Show me the last 50 errors from the kube-apiserver logs."
+- "Monitor DNS failures in the cluster for the next 30 seconds."
+- "Are there any nodes under disk pressure?"
+
+## Cleanup
+- "Delete the 'resource-hog' deployment."
+- "Undeploy Inspektor Gadget from the cluster."
+- "Remove the 'environment' label from the nginx pods."
+- "Clean up any demo resources in the default namespace."
