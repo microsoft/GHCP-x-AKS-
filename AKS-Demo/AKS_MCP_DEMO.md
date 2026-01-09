@@ -83,6 +83,11 @@ You are part of a Platform Engineering or Ops team (Cloud, SRE, or DevOps) respo
     *   **Tool Used:** `mcp_aks_mcp_kubectl_metadata` (label)
     *   **Outcome:** The pod is updated with the new label.
 
+8.  **Scale a Deployment:**
+    *   **Prompt:** "Scale the 'nginx-sample' deployment to 4 replicas."
+    *   **Tool Used:** `mcp_aks_mcp_kubectl_metadata` (set/scale)
+    *   **Outcome:** The deployment's replica count is increased.
+
 ### Phase 6: Troubleshooting & Break-Fix Scenarios
 **Goal:** Diagnose and resolve the issues created in Phase 0.
 

@@ -64,7 +64,19 @@ Before we can fix things, we need to create a realistic "bad" state.
 
 ---
 
-## 📊 Exercise 4: Final Validation
+## ⚡ Exercise 4: Cluster Management & Governance (Platform focus)
+**Objective:** Use direct MCP commands to manage resource state and metadata.
+
+1. **Tagging for Governance:**
+   Ask Copilot: *"Label all pods in the default namespace with 'environment=production' and annotate the nginx-sample deployment with 'last-audit-by=copilot'."*
+2. **Dynamic Scaling:**
+   Ask Copilot: *"Scale the 'nginx-sample' deployment to 5 replicas. Then, check if the pods are evenly distributed across nodes."*
+3. **Configuration Audit:**
+   Ask Copilot: *"List any deployments in the default namespace that don't have resource limits defined."*
+
+---
+
+## 📊 Exercise 5: Final Validation
 **Objective:** Verify the cluster is restored to a healthy state.
 
 1. **Health Check:**
